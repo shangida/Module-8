@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../css grid layout"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "clender use grid & flexbox"
+	}
+}

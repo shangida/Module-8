@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mai-container{
+    width: 550px;
+    height:550px ;
+    background-color: rgb(248, 244, 244);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 30%;
+}
+.month-name{
+    font-size: 50px;
+    font-weight: bold;
+    color: brown;
+    padding: 20px;
+}
+.clender-container{
+    display: grid;
+    grid-template-columns: repeat(7, 60px);
+    grid-template-rows: 40px repeat(5, 60px);
+    grid-gap: 20px;
+}
+.date, .day{
+    
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.date{
+    border: 2px solid  black;
+}
+.day{
+    background-color: rgb(180, 232, 232);
+}
+.next-month{
+    background-color: rgb(243, 215, 215);
+}
